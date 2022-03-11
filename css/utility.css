@@ -66,6 +66,9 @@
     .mt-md-offset-40 {
         margin-top: -40px;
     }
+    .z-index-md-3 {
+        z-index: 3;
+    }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
