@@ -50,7 +50,7 @@ function init() {
 
     const loader = new THREE.TextureLoader();
     // const textureSphereBg = loader.load('/assets/img/planet.png');
-    const texturenucleus = loader.load('/assets/img/planet.png');
+    const texturenucleus = loader.load('https://i.ibb.co/m00kNBQ/planet.png');
     // const textureStar = loader.load("/assets/img/planet.png");
     // const texture1 = loader.load("/assets/img/planet.png");  
     // const texture2 = loader.load("/assets/img/planet.png");
