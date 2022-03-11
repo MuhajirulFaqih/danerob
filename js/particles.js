@@ -477,7 +477,7 @@ function setup() {
     let canvas = document.getElementById("particle");
     var howManyStars = 1000;
     if (IS_MOBILE)
-        var howManyStars = 500;
+        var howManyStars = 200;
     let starfield = new StarField(howManyStars, canvas);
     starfield.startRenderLoop();
     // let UIToggleButton = document.getElementById("mouse-control-control");

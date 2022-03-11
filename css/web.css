@@ -8,6 +8,11 @@ body {
     font-weight: 400 !important;
 }
 
+canvas { display: block; }
+* {
+    outline: none !important;
+}
+
 ul { list-style: none; }
 a, a:hover { text-decoration: none !important; }
 a { color: inherit !important; }
