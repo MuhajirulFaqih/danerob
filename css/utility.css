@@ -33,6 +33,15 @@
 .bg-gradient {
     background: linear-gradient(102.22deg, #CB35FF 2.53%, #7635FF 98.61%) !important;
 }
+.bg-transparent {
+    background: transparent !important;
+}
+.bg-black {
+    background: #000000 !important;
+}
+.border-none {
+    border: none !important;
+}
 .mt-offset-75 {
     margin-top: -75px;
 }
@@ -54,6 +63,9 @@
 .z-index-3 { z-index: 3; }
 .space {
     padding: 100px 0 !important;
+}
+.w-16 {
+    width: 16px;
 }
 
 /* `sm` applies to small devices (landscape phones, less than 576px) */

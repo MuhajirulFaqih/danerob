@@ -303,6 +303,9 @@ a { color: inherit !important; }
     #cta::after {
         width: 450px;
     }
+    .video-popup {
+        height: 17em;
+    }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -344,8 +347,9 @@ a { color: inherit !important; }
     #cta::after {
         width: 600px;
     }
-
-    
+    .video-popup {
+        height: 20em;
+    }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
@@ -428,6 +432,9 @@ a { color: inherit !important; }
     #team::after {
         width: 800px;
         top: -350px;
+    }
+    .video-popup {
+        height: 25em;
     }
 }
 
