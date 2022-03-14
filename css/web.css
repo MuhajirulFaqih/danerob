@@ -3,7 +3,9 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
-    background: #000000 !important;
+    background-color: #000000 !important;
+    background: url('../assets/img/background.png') no-repeat center;
+    background-size: cover;
     color:#FFFFFF !important;
     font-weight: 400 !important;
 }
@@ -139,6 +141,29 @@ a { color: inherit !important; }
     z-index: -1;
 }
 
+.list-disc {
+    list-style-type: disc;
+}
+
+.bg-box-roadmap {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(14px);
+    background: url('../assets/img/roadmap-box-border.png') no-repeat center center;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.roadmap-box .bg-box-roadmap {
+    margin-top: -45px;
+    position: relative;
+    z-index: -1;
+    min-height: 493px;
+}
+
+.roadmap-box .btn-danerob {
+    background-color: #000000;
+}
+
 /* `sm` applies to small devices (landscape phones, less than 576px) */
 @media (min-width: 576px) {
     #origin::after { 
@@ -172,6 +197,10 @@ a { color: inherit !important; }
     .box-origin {
         display: inline-block;
         margin-top: -5em !important;
+    }
+    .roadmap-box .bg-box-roadmap {
+        margin-top: -42px !important;
+        min-height: 535px;
     }
 }
 
@@ -212,6 +241,10 @@ a { color: inherit !important; }
     .box-origin { 
         margin-top: -8em !important;
     }
+    .roadmap-box .bg-box-roadmap {
+        margin-top: -40px !important;
+        min-height: 535px;
+    }
 }
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
@@ -230,12 +263,20 @@ a { color: inherit !important; }
     .box-origin { 
         margin-top: -8em !important;
     }
+    .roadmap-box .bg-box-roadmap {
+        margin-top: -40px !important;
+        min-height: 520px;
+    }
 }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (min-width: 1400px) {
     .container {
         max-width: 1230px;
+    }
+    .roadmap-box .bg-box-roadmap {
+        margin-top: -35px !important;
+        min-height: 489px;
     }
 }
 
