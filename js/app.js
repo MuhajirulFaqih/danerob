@@ -7,6 +7,7 @@
     $('.navbar-closer').click(function() {
         $('.navbar').toggleClass('active')
     })
-    ACTparallax()
+    ACTparallax();
+    AOS.init({offset: 0, duration: 800});
 
 })(window.jQuery);

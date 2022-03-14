@@ -19,6 +19,7 @@
 .fs-16 { font-size: 16px; }
 .fs-18 { font-size: 18px; }
 .fs-24 { font-size: 24px; }
+.fs-32 { font-size: 32px; }
 .fs-40 { font-size: 40px; }
 .fs-48 { font-size: 48px; }
 .fs-64 { font-size: 64px; }
@@ -29,6 +30,9 @@
 .lh-170-percent { line-height: 170%; }
 .ls-10-percent { letter-spacing: 0.1em; }
 .h-100-vh { height: 100vh; }
+.bg-gradient {
+    background: linear-gradient(102.22deg, #CB35FF 2.53%, #7635FF 98.61%) !important;
+}
 .mt-offset-75 {
     margin-top: -75px;
 }
@@ -48,10 +52,15 @@
 .z-index-1 { z-index: 1; }
 .z-index-2 { z-index: 2; }
 .z-index-3 { z-index: 3; }
+.space {
+    padding: 100px 0 !important;
+}
 
 /* `sm` applies to small devices (landscape phones, less than 576px) */
 @media (min-width: 576px) {
-    
+    .w-sm-50 {
+        width: 50% !important;
+    }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -72,13 +81,15 @@
     .z-index-md-3 {
         z-index: 3;
     }
+    .space {
+        padding: 150px 0 !important;
+    }
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (min-width: 992px) {
-    .fs-lg-72 {
-        font-size: 72px;
-    }
+    .fs-lg-72 { font-size: 72px; }
+    .fs-lg-48 { font-size: 48px; }
     .fs-lg-64 { font-size: 64px; }
     .fs-lg-72 { font-size: 72px; }
     .fs-lg-91 { font-size: 91px; }
@@ -90,6 +101,9 @@
     }
     .col-lg-2-per-4 {
         width: 20%;
+    }
+    .space {
+        padding: 180px 0 !important;
     }
 }
 
@@ -115,6 +129,9 @@
     }
     .mt-xl-offset-120 {
         margin-top: -120px;
+    }
+    .space {
+        padding: 200px 0 !important;
     }
 }
 
