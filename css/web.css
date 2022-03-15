@@ -99,6 +99,7 @@ a { color: inherit !important; }
     outline: none !important;
     border: none !important;
     left: -30%;
+    opacity: .4;
 }
 #roadmap .pattern {
     position: absolute;
@@ -118,6 +119,7 @@ a { color: inherit !important; }
     outline: none !important;
     border: none !important;
     right: -30%;
+    opacity: .4;
 }
 .planet-4 {
     width: 100%;
@@ -128,6 +130,7 @@ a { color: inherit !important; }
     outline: none !important;
     border: none !important;
     left: -30%;
+    opacity: .4;
 }
 #what {
     padding-top: 8em;
