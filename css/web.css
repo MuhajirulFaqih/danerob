@@ -464,6 +464,10 @@ a { color: inherit !important; }
         margin-top: 120px !important;
         margin-bottom: 120px;
     }
+
+    .video-popup {
+        height: 40em;
+    }
 }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
