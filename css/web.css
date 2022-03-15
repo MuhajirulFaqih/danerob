@@ -132,6 +132,26 @@ a { color: inherit !important; }
     left: -30%;
     opacity: .4;
 }
+.planet-o-1, .planet-o-2, .planet-o-3, .planet-o-4 {
+    position: absolute;
+    z-index: -1;
+}
+.planet-o-1 {
+    right: -50%;
+    top: 0;
+}
+.planet-o-2 {
+    left: -50%;
+    top: 0;
+}
+.planet-o-3 {
+    right: -50%;
+    bottom: -50px;
+}
+.planet-o-4 {
+    left: -50%;
+    bottom: 30px;
+}
 #what {
     padding-top: 8em;
     position: relative;
@@ -310,6 +330,12 @@ a { color: inherit !important; }
     .video-popup {
         height: 17em;
     }
+    .planet-o-1, .planet-o-3 {
+        right: -20%;
+    }
+    .planet-o-2, .planet-o-4 {
+        left: -20%;
+    }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -440,6 +466,12 @@ a { color: inherit !important; }
     .video-popup {
         height: 25em;
     }
+    .planet-o-1, .planet-o-3 {
+        right: -10%;
+    }
+    .planet-o-2, .planet-o-4 {
+        left: -10%;
+    }
 }
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
@@ -471,6 +503,12 @@ a { color: inherit !important; }
     .video-popup {
         height: 40em;
     }
+    .planet-o-1, .planet-o-3 {
+        right: 0;
+    }
+    .planet-o-2, .planet-o-4 {
+        left: 0;
+    }
 }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
@@ -481,6 +519,12 @@ a { color: inherit !important; }
     .roadmap-box .bg-box-roadmap {
         margin-top: -35px !important;
         min-height: 530px;
+    }
+    .planet-o-1, .planet-o-3 {
+        right: 5%;
+    }
+    .planet-o-2, .planet-o-4 {
+        left: 5%;
     }
 }
 

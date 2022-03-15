@@ -103,14 +103,14 @@ function generatePlanet (container) {
     }
 }
 
-var container = document.getElementById("canvas_planet")
-generatePlanet(container)
+// var container = document.getElementById("canvas_planet")
+// generatePlanet(container)
 
-var container2 = document.getElementById("canvas_planet_2")
-generatePlanet(container2)
+// var container2 = document.getElementById("canvas_planet_2")
+// generatePlanet(container2)
 
-var container3 = document.getElementById("canvas_planet_3")
-generatePlanet(container3)
+// var container3 = document.getElementById("canvas_planet_3")
+// generatePlanet(container3)
 
-var container4 = document.getElementById("canvas_planet_4")
-generatePlanet(container4)
+// var container4 = document.getElementById("canvas_planet_4")
+// generatePlanet(container4)
